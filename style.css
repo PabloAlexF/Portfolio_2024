@@ -1,0 +1,769 @@
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.cursor {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: rgb(71,0,255);
+    background: linear-gradient(176deg, rgba(71,0,255,1) 0%, rgba(132,84,255,1) 100%);
+    pointer-events: none;
+    transition: transform 0.1s ease;
+    z-index: 1000;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+*{
+    cursor: none;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    margin: 5rem;
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    left: 38%;
+    transition: background-color 0.3s ease;
+    background: rgb(2,0,36);
+    background: linear-gradient(28deg, rgba(2,0,36,1) 0%, rgba(71,0,255,1) 50%);
+    border-radius: 1.8rem;
+    width: 500px;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+nav > a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 1rem;
+    color: #e3e3e3;
+    font-family: 'Finger Paint';
+    cursor: none;
+    transition: color 0.3s ease;
+}
+
+/* Estilo quando a página é rolada */
+.header-scrolled {
+    background: rgb(2,0,36);
+    background: linear-gradient(28deg, rgba(2,0,36,1) 0%, rgba(71,0,255,1) 50%);
+}
+
+#text > p {
+    font-weight: 600;
+    font-size: 1.2rem;
+    font-style: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+/* MAIN */
+
+#text1{
+    color: #303030;
+    font-family: 'Finger Paint';
+    margin: 0;
+    width: 350px;
+    height: 30px;
+}
+#text1 > h2{
+    margin: 0;
+}
+
+#TextTitulo{
+    font-family: 'Inter';
+    font-size: 5rem;
+    margin: 0;
+}
+
+
+#TextTitulo > h1{
+    margin: 0;
+    line-height: 1.3em;
+    color: #303030;
+    font-weight: 900;
+}
+
+#pablotitulo{
+    width: 390px;
+    height: 100px;
+}
+
+#andradetitulo{
+    width: 480px;
+    height: 120px;
+}
+
+
+#spancolor1{
+    background: #4700FF;
+    width: 200px;
+    height: 50px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-family: 'Finger Paint';
+    border-radius: 1rem;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+#spancolor2{
+    background: #4700FF;
+    width: 70px;
+    height: 50px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-family: 'Finger Paint';
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    line-height: 2.5;
+}
+
+#spancolor3{
+    background: #4700FF;
+    width: 150px;
+    height: 50px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    line-height: 1rem;
+    font-family: 'Finger Paint';
+    border-radius: 1rem;
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+.spancolor3 > p{
+    margin: 0;
+}
+
+#design-git-linkedin{
+    display: flex;
+    align-items: center;
+}
+
+
+#span1-span2{
+    display: flex;
+    gap: 1rem;
+}
+
+#IMG-DEG div > #eclipse {
+    position: absolute;
+    left: 80rem;
+    top: 10rem;
+    width: 28rem;
+    transform: rotate(0deg);
+}
+
+#IMG-DEG div > #retangulo {
+    position: absolute;
+    left: 100rem;
+    top: 9em;
+    z-index: -1;
+}
+
+#imagem-profissional{
+    position: absolute;
+    left: 88rem;
+    top: 16rem;
+    z-index: 1;
+}
+
+
+
+.tudo-main1{
+    margin-top: 10rem;
+    margin-left: 5rem;
+}
+
+#seta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1rem;
+    opacity: 100%;
+}
+
+#linha-1{
+    width: 60px;
+    height: 2px;
+    background: #16004F;
+    margin-top: 1.9rem;
+    margin-right: 1rem;
+    margin-left: 10rem;
+}
+
+#inicio {
+    display: flex;
+    margin: 0;
+    margin-top: 10rem;
+    text-align: right;
+    margin-left: 34rem;
+}
+
+#inicio > h1 {
+    margin: 0;
+    font-family: 'Segoe UI';
+    font-size: 2.8rem;
+    color: #16004F;
+
+}
+
+#projetoss {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 6rem;
+    margin: 5rem;
+}
+
+#quadrado1{
+    width: 250px;
+    height: 250px;
+    background: rgb(2,0,36);
+    background: linear-gradient(28deg, rgba(2,0,36,1) 0%, rgba(71,0,255,1) 50%);
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Segoe UI';
+    padding-left: 4rem;
+    gap: 1rem;
+    padding-top: 2rem;
+    margin-top: 3rem;
+}
+
+#quadrado2{
+    width: 250px;
+    height: 250px;
+    background: rgb(2,0,36);
+    background: linear-gradient(28deg, rgba(2,0,36,1) 0%, rgba(65,0,233,1) 60%);
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Segoe UI';
+    padding-left: 4rem;
+    gap: 1rem;
+    padding-top: 2rem;
+}
+
+#quadrado3{
+    width: 250px;
+    height: 250px;
+    background: rgb(2,0,36);
+    background: linear-gradient(28deg, rgba(2,0,36,1) 0%, rgba(86,20,255,1) 70%);
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Segoe UI';
+    padding-left: 4rem;
+    gap: 1rem;
+    padding-top: 2rem;
+}
+
+#quadrado4{
+    width: 250px;
+    height: 250px;
+    background: rgb(2,0,36);
+    background: linear-gradient(28deg, rgba(2,0,36,1) 0%, rgba(25,0,189,1) 82%);
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Segoe UI';
+    padding-left: 4rem;
+    gap: 1rem;
+    padding-top: 2rem;
+    margin-top: 3rem;
+    color: rgb(50, 50, 255);
+}
+
+.btnacessar1 {
+    text-decoration: none;
+    color: white;
+    background: rgb(2,0,36);
+    background: linear-gradient(28deg, rgba(2,0,36,1) 0%, rgba(71,0,255,1) 50%);
+    width: 130px;
+    height:40px;
+    text-align: center;
+    font-size: 1rem;
+    font-style: bold;
+    border-radius: 1rem;
+    line-height: 2.5rem;
+    font-family: 'Finger Paint';
+    cursor: none; 
+}
+.btnacessar2 {
+    text-decoration: none;
+    color: white;
+    background: rgb(2,0,36);
+    background: linear-gradient(28deg, rgba(2,0,36,1) 0%, rgba(65,0,233,1) 60%);
+    width: 130px;
+    height:40px;
+    text-align: center;
+    font-size: 1rem;
+    font-style: bold;
+    border-radius: 1rem;
+    line-height: 2.5rem;
+    font-family: 'Finger Paint';
+    cursor: none; 
+}
+.btnacessar3 {
+    text-decoration: none;
+    color: white;
+    background: rgb(2,0,36);
+    background: linear-gradient(28deg, rgba(2,0,36,1) 0%, rgba(86,20,255,1) 70%);
+    width: 130px;
+    height:40px;
+    text-align: center;
+    font-size: 1rem;
+    font-style: bold;
+    border-radius: 1rem;
+    line-height: 2.5rem;
+    font-family: 'Finger Paint';
+    cursor: none; 
+}
+
+.btnacessar4 {
+    text-decoration: none;
+    color: white;
+    background: rgb(2,0,36);
+    background: linear-gradient(28deg, rgba(2,0,36,1) 0%, rgba(25,0,189,1) 82%);
+    width: 130px;
+    height:40px;
+    text-align: center;
+    font-size: 1rem;
+    font-style: bold;
+    border-radius: 1rem;
+    line-height: 2.5rem;
+    font-family: 'Finger Paint';
+    cursor: none; /* Oculta o cursor padrão */
+}
+
+#sobremimtitulo {
+    font-size: 2rem; 
+    color: #16004F; 
+    font-family: 'Segoe UI';
+}
+
+#textomim > p {
+    font-size: 1.2rem;
+}
+
+.skills {
+    font-family: 'Segoe UI';
+    margin: 5rem;
+    margin-top: 8rem;
+}
+
+.azul {
+    margin-top: 4rem;
+    width: 400px;
+    height: 400px ;
+    background: rgb(2,0,36);
+    background: linear-gradient(53deg, rgba(2,0,36,1) 0%, rgba(0,67,189,1) 82%);
+    border-radius: 12rem;
+    line-height: 5rem;
+}
+
+/* 1 */
+.spanbranco1 {
+    width: 273px;
+    height: 9px;
+    background: #e3e3e3;
+    border-radius: 2rem;
+}
+
+.spanazul1 {
+    width: 183px;
+    height: 9px;
+    background: #4700FF;
+    border-radius: 2rem;
+    box-shadow: 0 2px 25px rgba(0, 59, 221, 0.5);
+}
+
+/* 2 */
+.spanbranco2 {
+    width: 273px;
+    height: 9px;
+    background: #e3e3e3;
+    border-radius: 2rem;
+}
+
+.spanazul2 {
+    width: 108px;
+    height: 9px;
+    background: #4700FF;
+    border-radius: 2rem;
+    box-shadow: 0 2px 25px rgba(0, 59, 221, 0.5);
+}
+
+/* 3 */
+.spanbranco3 {
+    width: 273px;
+    height: 9px;
+    background: #e3e3e3;
+    border-radius: 2rem;
+}
+
+.spanazul3 {
+    width: 262px;
+    height: 9px;
+    background: #4700FF;
+    border-radius: 2rem;
+    box-shadow: 0 2px 25px rgba(0, 59, 221, 0.5);
+}
+
+/* 4 */
+.spanbranco4 {
+    width: 273px;
+    height: 9px;
+    background: #e3e3e3;
+    border-radius: 2rem;
+}
+
+.spanazul4 {
+    width: 262px;
+    height: 9px;
+    background: #4700FF;
+    border-radius: 2rem;
+    box-shadow: 0 2px 25px rgba(0, 59, 221, 0.5);
+}
+
+#htmlskill{
+    display: flex; 
+    gap: 12rem;
+    margin: 0;
+}
+
+#titulos {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5rem;
+}
+
+#titulos > #h1-1 {
+    font-size: 8rem;
+    color: #16004F;
+    opacity: 16%;
+    font-family: 'Finger Paint';
+    margin: 0;
+}
+
+#titulos > #h1-2 {
+    font-size: 3rem;
+    color: #16004F;
+    font-family: 'Finger Paint';
+    position: absolute;
+    padding-top: 3.5rem;
+    padding-left: 2rem;
+    margin: 0;
+}
+
+#line-0 {
+    width: 67px;
+    height: 3px;
+    background: #16004F;
+    position: absolute;
+    margin-top: 7.5rem;
+    margin-left: 12rem;
+}
+
+#telefone {
+    display: flex;
+    gap: 2rem;
+    margin-left: 5rem;
+}
+
+
+/* footer */
+
+
+#azulzinho {
+    width: 244px;
+    height: 244px ;
+    background-color: #16004F;
+    border-radius: 8rem;
+}
+#footer{
+    display: flex;
+    font-family: 'Segoe UI';
+    margin: 5rem;
+    gap: 8rem;
+}
+
+
+#btnContato {
+    text-decoration: none;
+    border: none;
+    background-color: #16004F;
+    width: 300px;
+    color: white;
+    text-align: center;
+}
+
+/* BTN */
+
+.bubbly-button {
+    margin-top: 1rem;
+    font-family: 'Finger Paint';
+    display: inline-block;
+    font-size: 1em;
+    padding: 1em 2em;
+    margin-bottom: 60px;
+    -webkit-appearance: none;
+    appearance: none;
+    background: rgb(3,0,59);
+    background: linear-gradient(180deg, rgba(3,0,59,1) 0%, rgba(0,91,255,1) 100%);
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+    position: relative;
+    transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
+    box-shadow: 0 2px 25px rgba(0, 59, 221, 0.5);
+
+  }
+  .bubbly-button:focus {
+    outline: 0;
+    transition: all 0.5s;
+  }
+  .bubbly-button:before, .bubbly-button:after {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 140%;
+    height: 100%;
+    left: -20%;
+    z-index: -1000;
+    transition: all ease-in-out 0.5s;
+    background-repeat: no-repeat;
+  }
+  .bubbly-button:before {
+    display: none;
+    top: -75%;
+    background-image: radial-gradient(circle, #0023a3 20%, transparent 20%), radial-gradient(circle, transparent 20%, #0059ff 20%, transparent 30%), radial-gradient(circle, #0073ff 20%, transparent 20%), radial-gradient(circle, #1e53ff 20%, transparent 20%), radial-gradient(circle, transparent 10%, #0084ff 15%, transparent 20%), radial-gradient(circle, #0008ff 20%, transparent 20%), radial-gradient(circle, #2495ff 20%, transparent 20%), radial-gradient(circle, #011596 20%, transparent 20%), radial-gradient(circle, #004c7b 20%, transparent 20%);
+    background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%, 10% 10%, 18% 18%;
+  }
+  .bubbly-button:after {
+    display: none;
+    bottom: -75%;
+    background-image: radial-gradient(circle, #031c81 20%, transparent 20%), radial-gradient(circle, #00aeff 20%, transparent 20%), radial-gradient(circle, transparent 10%, #01086e 15%, transparent 20%), radial-gradient(circle, #182fa1 20%, transparent 20%), radial-gradient(circle, #281677 20%, transparent 20%), radial-gradient(circle, #005eff 20%, transparent 20%), radial-gradient(circle, #0077ff 20%, transparent 20%);
+    background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 10% 10%, 20% 20%;
+  }
+  .bubbly-button:active {
+    transform: scale(0.9);
+    background-color: #003de6;
+    box-shadow: 0 2px 25px rgba(4, 217, 255, 0.2);
+  }
+  .bubbly-button.animate:before {
+    display: block;
+    animation: topBubbles ease-in-out 0.75s forwards;
+  }
+  .bubbly-button.animate:after {
+    display: block;
+    animation: bottomBubbles ease-in-out 0.75s forwards;
+
+  }
+  
+  @keyframes topBubbles {
+    0% {
+      background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%, 40% 90%, 55% 90%, 70% 90%;
+    }
+    50% {
+      background-position: 0% 80%, 0% 20%, 10% 40%, 20% 0%, 30% 30%, 22% 50%, 50% 50%, 65% 20%, 90% 30%;
+    }
+    100% {
+      background-position: 0% 70%, 0% 10%, 10% 30%, 20% -10%, 30% 20%, 22% 40%, 50% 40%, 65% 10%, 90% 20%;
+      background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+    }
+  }
+  @keyframes bottomBubbles {
+    0% {
+      background-position: 10% -10%, 30% 10%, 55% -10%, 70% -10%, 85% -10%, 70% -10%, 70% 0%;
+    }
+    50% {
+      background-position: 0% 80%, 20% 80%, 45% 60%, 60% 100%, 75% 70%, 95% 60%, 105% 0%;
+    }
+    100% {
+      background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%, 110% 10%;
+      background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+    }
+  }
+
+  
+  #contatar {
+    margin-left: 5rem;
+  }
+
+  #js_e_C {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+  }
+
+
+  /* RESPONSIVIDADE */
+  
+  @media (max-width: 375px) {
+
+    body {
+        margin: 0;
+    }
+    header {
+        display: none;
+        margin: 0;
+    }
+
+    #spancolor1 > p {
+        font-size: 0.9rem;
+    }
+    #spancolor1 {
+        height: 40px;
+        width: 200px;
+    }
+    #spancolor1 > p {
+        margin: 0;
+    }
+    #spancolor2 {
+        width: 50px;
+        height: 30px;
+        position: absolute;
+        top: 22.5rem;
+        font-size: 0.8rem;
+    }
+    #spancolor3 {
+        width: 150px;
+        height: 30px;
+        position: absolute;
+        top: 22.5rem;
+        left: 9rem;
+        margin: 0;
+        font-size: 0.8rem;
+        line-height: 0.5rem;
+    }
+    
+    
+    #img-icons {
+        position: absolute;
+        margin-top: 9rem;
+    }
+
+    #eclipse, #retangulo{
+        display: none;
+    }
+
+    #TextTitulo > h1 {
+        font-size: 3.2rem;
+        margin: 0;
+        color: #303030;
+        font-weight: 900;
+    }
+
+    #pablotitulo{
+        width: 390px;
+        height: 50px;
+    }
+    
+    #andradetitulo{
+        width: 480px;
+        height: 70px;
+    }
+
+    #inicio {
+        display: flex;
+        margin-left: 5rem;
+    }
+    #inicio > h1 {
+        font-size: 2.3rem;
+    }
+    
+    #linha-1{
+    width: 30px;
+    height: 3px;
+    position: absolute;
+    margin-top: 3rem;
+    margin-left: 0;
+}
+
+    #projetoss{
+        display: flex;
+        flex-direction: column;
+        margin-left: 5rem;
+        margin-top: 0;
+    }
+    #projetoss > div > img{
+        width: 30px;
+    }
+
+    #quadrado1, #quadrado2, #quadrado3, #quadrado4{
+        text-align: center;
+        align-items: center;
+        width: 200px;
+        height: 250px;
+        padding-left: 0rem;
+    }
+
+    #seta{
+        display: none;
+    }
+
+
+    .azul {
+        display: none;
+    }
+
+    #line13 {
+         position: absolute;
+         margin-top: 6rem;
+    }
+
+    #sobremimtitulo{
+        font-size: 1.5rem;
+    }
+
+    #textomim > p {
+        font-size: 1rem;
+        text-align: justify;
+        max-width: 240px;
+    }
+
+    #todas_skills{
+        display: flex;
+        flex-direction: column;
+    }
+    #js_e_C {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+      }
+    
+    #HTML_e_Css{
+        display: flex; 
+        flex-direction: column;
+    }
+
+  }

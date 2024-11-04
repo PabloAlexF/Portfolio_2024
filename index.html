@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="reload()">
+    
+    <header onmousemove="hdentro()" onmouseleave="hfora()" id="header">
+        <nav>
+            <a onmousemove="colornavDentro1()" onmouseout="colornavfora1()" id="sobre" href="#skills">Sobre</a>
+            <a onmousemove="colornavDentro2()" onmouseout="colornavfora2()" id="projetos" href="#projects">Projetos</a>
+            <a onmousemove="colornavDentro3()" onmouseout="colornavfora3()" id="contato" href="#contatoo">Contato</a>
+        </nav>
+        <div id="linha-roxa"></div>
+    </header>
+    
+    <div>
+        <div class="cursor" id="cursor"></div>
+    </div>
+
+
+    <main>
+
+            <section class="tudo-main1">
+                <section id="text1">
+                        <h2 onmousemove="mover()" onmouseout="moverfora()" id="texto_muda">OLÁ , EU ME CHAMO</h2>
+                    </section>
+
+                    <section id="TextTitulo">
+                        <h1 onmousemove="pablomove()" onmouseout="pabloout()" id="pablotitulo">PABLO</h1>
+                        <h1 onmousemove="andrademove()" onmouseout="andradeout()" id="andradetitulo">ANDRADE</h1>
+                    </section>
+
+                    <div id="span1-span2">
+                            <div onmousemove="spandentro()" onmouseout="spanfora()" id="spancolor1" >
+                                <p>DESENVOLVEDOR WEB</p>
+                            </div>
+
+                            <div onmousemove="spandentro2()" onmouseout="spanfora2()" id="spancolor2">
+                                <span>&&</span>
+                            </div>
+                    </div>
+
+                    <section id="design-git-linkedin">
+                            <div onmousemove="spandentro3()" onmouseout="spanfora3()" id="spancolor3">
+                                    <p>DESIGN GRÁFICO</p>
+                            </div>
+                            
+                            <div id="img-icons">
+                                <img src="img/iconlinkedin (2) 1.png" alt="">
+                                <img src="img/github-icon-2 5.png" alt="">
+
+                                <span id="imagem-profissional">
+                                    <img src="" alt="">
+                                </span>
+                            </div>
+                    </section>
+                </section> 
+                
+
+                <section id="IMG-DEG">
+                        <div>
+                            <img onmouseleave="eclipsee()" onmousemove="eclipse()" id="eclipse" src="img/Ellipse 4.png" alt="redondo-degradê">
+                        </div>
+
+                        <div>
+                            <img id="retangulo" src="img/Frame 8.png">
+                        </div>
+
+                </section>
+
+                <div id="seta">
+                    <img src="img/Chevron down (1).png" alt="">
+                </div>
+
+                <!-- FIM DA APRESENTAÇÃO INICIAL -->
+                <div id="projects"></div>
+                <section>
+                    <div id="inicio">
+                        <span id="linha-1"></span>
+                        <h1>Projetos</h1>
+                    </div>
+                </section>
+
+                <section id="projetoss">
+                    <div onmousemove="quadradodentro()" onmouseout="quadradofora()" id="quadrado1">
+                        <img onmousemove="calcdentro()" onmouseout="calcfora()" id="calcicon" src="img/calculadora.png" width="35px">
+                        <h1 style="margin: 0;">Calculadora <br> em Js</h1>
+                        <img id="line101" src="img/Line 10.png" width="70px" height="3px" >
+                        <a onmousemove="btndentro1()" onmouseout="btnfora1()" id="btnacessar1" class="btnacessar1" href="">Acessar</a>
+                    </div>
+                    <div onmousemove="quadradodentro2()" onmouseout="quadradofora2()" id="quadrado2">
+                        <img src="img/gridimg.png" width="35px">
+                        <h1 style="margin: 0;">Site utilizando <br> grid</h1>
+                        <img id="line102" src="img/Line 10.png" width="70px" height="3px" >
+                        <a onmousemove="btndentro2()" onmouseout="btnfora2()" id="btnacessar2" class="btnacessar2" href="">Acessar</a>
+                    </div>
+                    <div onmousemove="quadradodentro3()" onmouseout="quadradofora3()" id="quadrado3">
+                        <img src="img/tabelaperiodica.png" width="35px">
+                        <h1 style="margin: 0;">Tabela <br> Periódica</h1>
+                        <img id="line103" src="img/Line 10.png" width="70px" height="3px" >
+                        <a onmousemove="btndentro3()" onmouseout="btnfora3()" id="btnacessar3" class="btnacessar3" href="">Acessar</a>
+                    </div>
+                    
+                    <div onmousemove="quadradodentro4()" onmouseout="quadradofora4()" id="quadrado4">
+                        <img src="img/relogio.png" width="35px">
+                        <h1 style="margin: 0;">Relógio <br> Digital</h1>
+                        <img id="line104" src="img/Line 10.png" width="70px" height="3px" >
+                        <a onmousemove="btndentro4()" onmouseout="btnfora4()" id="btnacessar4" class="btnacessar4" href="">Acessar</a>
+                    </div>
+                </section>
+
+
+
+                <!-- SKILLS -->
+                <section id="skills" class="skills">
+
+                    <section style="display: flex; gap: 10rem;">
+                        <div class="azul"></div>
+
+                        <div style="display: flex; flex-direction: column;">
+                            <div style="display: flex; gap: 1rem;">
+                                <img id="line13" src="img/Line 13.png" height="2px" width="50px" style="margin-top: 3.5rem">
+                                <h1 id="sobremimtitulo">Sobre mim && Skills</h1>
+                            </div>
+                            <div id="textomim">
+                                <p>
+                                    Ola! Eu sou um estudante de 18 anos apaixonado por tecnologia e design.
+                                    Atualmente, estou mergulhando no mundo do front-end, aprendendo a criar 
+                                    interfaces incríveis e funcionais. Adoro o desafio de transformar ideias em realidade,
+                                    e cada linha de código me empolga mais.
+                                    <br>
+                                    <br>
+                                    Nos meus tempos livres, gosto de explorar novas ferramentas e tendências, 
+                                    além de me inspirar em projetos de outros desenvolvedores. Acredito que a 
+                                    criatividade é tão importante quanto a técnica, e estou sempre buscando melhorar 
+                                    minhas habilidades.
+                                </p>
+                            </div>
+    
+                            <div id="todas_skills">
+                                <div >
+                                    <div id="js_e_C">
+                                        <div>
+                                            <div style="display: flex; gap: 4.5rem;">
+                                                <h1>Java-Script</h1>
+                                                <h1>67%</h1>
+                                            </div>
+                                            <div class="spanbranco1">
+                                                <div id="spanazul1" class="spanazul1"></div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div>
+                                            <div style="display: flex; gap: 4.5rem;">
+                                                <h1>C#</h1>
+                                                <h1>35%</h1>
+                                            </div>
+                                            <div class="spanbranco2">
+                                                <div class="spanazul2"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+        
+                                    <div id="HTML_e_Css">
+                                        <div>
+                                            <div id="htmlskill">
+                                                <h1>HTML</h1>
+                                                <h1>95%</h1>
+                                            </div>
+                                            <div class="spanbranco3">
+                                                <div class="spanazul3"></div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div>
+                                            <div style="display: flex; gap: 13rem;">
+                                                <h1>CSS</h1>
+                                                <h1>96%</h1>
+                                            </div>
+                                            <div class="spanbranco4">
+                                                <div class="spanazul4"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </section>
+                </section>
+
+                <div id="contatoo"></div>
+                <section id="form">
+                    <div id="titulos">
+                        <h1 id="h1-1">CONTATOS</h1>
+                        <h1 id="h1-2">CONTATOS & CONTATAR</h1>
+                        <span id="line-0"></span>
+                    </div>
+
+                    <div id="telefone">
+                        <div>
+                            <div style="display: flex; gap: 1rem; margin: 0;">
+                                <img style="margin-top: 1rem;" src="img/Phone.png" width="25px" height="25px">
+                                <h1 style="font-size: 1.6rem; font-family: 'Inter'; color: #16004F; margin: 0;">Telefone</h1>
+                            </div>
+                            <div style="margin: 0;">
+                                <h1 style="margin: 0 ; font-family: 'Segoe UI'; ">+55 (31) 982297392</h1>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div style="display: flex; gap: 1rem; margin: 0;">
+                                <img style="margin-top: 1rem;" src="img/mail.png" width="25px" height="25px">
+                                <h1 style="font-size: 1.6rem; font-family: 'Inter'; color: #16004F; margin: 0;">Email</h1>
+                            </div>
+                            <div style="margin: 0;">
+                                <h1 style="margin: 0 ; font-family: 'Segoe UI';">pablolexandrade@gmail.com</h1>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="contatar">
+                        <div>
+                            <button id="btnbolhas" onmousemove="bubbly()" class="bubbly-button">Contate-me !</button>
+                        </div>
+                    </div>
+                </section>
+
+
+    </main>
+
+<script src="script.js"></script>
+</body>
+</html>
